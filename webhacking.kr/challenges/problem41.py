@@ -1,6 +1,11 @@
 import re
 import requests
 
+'''
+250 스코어의 문제입니다.
+풀이 내용 링크 : http://blog.hax0r.info/805
+'''
+
 # 세션 값
 PHPSESSID = ""
 URL = "http://webhacking.kr/challenge/web/web-19/index.php"
