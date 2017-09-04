@@ -11,7 +11,7 @@ URL = "http://webhacking.kr/challenge/web/web-20/index.php"
 DOWN_LOAD_PARAM = '?down=dGVzdC56aXA='
 
 cookies = {
-    'PHPSESSID' : '6eb9a659540c7d3622b7b9d95ee9ac93'
+    'PHPSESSID' : PHPSESSID
 }
 
 if os.name == 'nt':
