@@ -1,9 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-#
-
-PHPSESSID = 'bde624d1a1f5c0ca0438fd3bde69cb57'
+PHPSESSID = ''
 PROBLEM_URL = 'http://webhacking.kr/challenge/bonus/bonus-12/index.php'
 cookies = {
     'PHPSESSID' : PHPSESSID
@@ -34,7 +32,7 @@ for row in webhackTable.findAll("tr"):
     delelteLink = cells[4]
 
     if delelteLink is None:
-        print('이미지가 정상 업로드 안된 듯')
+        print('정상 업로드 안된 듯')
         break
 
     print('Check out this hyperlink')
